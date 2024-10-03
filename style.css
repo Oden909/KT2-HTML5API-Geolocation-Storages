@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f9e2;
+    color: #22356f;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+}
+
+button.btn{
+    padding: 10px 20px;
+    background-color: #22356f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button.btn:hover{
+    background-color: #0052c1;
+}
+
+#demo{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #0052c1;
+}
+
+#savedLocations{
+    margin-top: 30px;
+    text-align: left;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#savedLocations div{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1e1e1;
+}
+
